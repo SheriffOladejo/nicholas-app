@@ -1,0 +1,144 @@
+PODS:
+  - Capacitor (5.5.0):
+    - CapacitorCordova
+  - CapacitorApp (5.0.6):
+    - Capacitor
+  - CapacitorCamera (5.0.7):
+    - Capacitor
+  - CapacitorCommunityStripe (5.3.0):
+    - Capacitor
+    - StripeApplePay (~> 23.17.1)
+    - StripeIdentity (~> 23.17.1)
+    - StripePaymentSheet (~> 23.17.1)
+  - CapacitorCordova (5.5.0)
+  - CapacitorHaptics (5.0.6):
+    - Capacitor
+  - CapacitorKeyboard (5.0.6):
+    - Capacitor
+  - CapacitorStatusBar (5.0.6):
+    - Capacitor
+  - CordovaPlugins (5.2.2):
+    - CapacitorCordova
+  - CordovaPluginsStatic (5.2.2):
+    - CapacitorCordova
+    - OneSignalXCFramework (= 3.12.4)
+  - OneSignalXCFramework (3.12.4):
+    - OneSignalXCFramework/OneSignalCore (= 3.12.4)
+    - OneSignalXCFramework/OneSignalExtension (= 3.12.4)
+    - OneSignalXCFramework/OneSignalOutcomes (= 3.12.4)
+  - OneSignalXCFramework/OneSignalCore (3.12.4)
+  - OneSignalXCFramework/OneSignalExtension (3.12.4):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOutcomes (3.12.4):
+    - OneSignalXCFramework/OneSignalCore
+  - PurchasesHybridCommon (7.0.0):
+    - RevenueCat (= 4.27.0)
+  - RevenueCat (4.27.0)
+  - RevenuecatPurchasesCapacitor (7.0.0):
+    - Capacitor
+    - PurchasesHybridCommon (= 7.0.0)
+  - StripeApplePay (23.17.2):
+    - StripeCore (= 23.17.2)
+  - StripeCameraCore (23.17.2):
+    - StripeCore (= 23.17.2)
+  - StripeCore (23.17.2)
+  - StripeIdentity (23.17.2):
+    - StripeCameraCore (= 23.17.2)
+    - StripeCore (= 23.17.2)
+    - StripeUICore (= 23.17.2)
+  - StripePayments (23.17.2):
+    - StripeCore (= 23.17.2)
+    - StripePayments/Stripe3DS2 (= 23.17.2)
+  - StripePayments/Stripe3DS2 (23.17.2):
+    - StripeCore (= 23.17.2)
+  - StripePaymentSheet (23.17.2):
+    - StripeApplePay (= 23.17.2)
+    - StripeCore (= 23.17.2)
+    - StripePayments (= 23.17.2)
+    - StripePaymentsUI (= 23.17.2)
+  - StripePaymentsUI (23.17.2):
+    - StripeCore (= 23.17.2)
+    - StripePayments (= 23.17.2)
+    - StripeUICore (= 23.17.2)
+  - StripeUICore (23.17.2):
+    - StripeCore (= 23.17.2)
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorCommunityStripe (from `../../node_modules/@capacitor-community/stripe`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+  - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
+  - "RevenuecatPurchasesCapacitor (from `../../node_modules/@revenuecat/purchases-capacitor`)"
+
+SPEC REPOS:
+  trunk:
+    - OneSignalXCFramework
+    - PurchasesHybridCommon
+    - RevenueCat
+    - StripeApplePay
+    - StripeCameraCore
+    - StripeCore
+    - StripeIdentity
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorCommunityStripe:
+    :path: "../../node_modules/@capacitor-community/stripe"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+  CordovaPluginsStatic:
+    :path: "../capacitor-cordova-ios-plugins"
+  RevenuecatPurchasesCapacitor:
+    :path: "../../node_modules/@revenuecat/purchases-capacitor"
+
+SPEC CHECKSUMS:
+  Capacitor: 57890b363df14d5d2d5d8461aa23e886cb34da2a
+  CapacitorApp: 024e1b1bea5f883d79f6330d309bc441c88ad04a
+  CapacitorCamera: 084b0b228bba7d00587910337b1c89e93b1d32ab
+  CapacitorCommunityStripe: 2fac7716e3810fcb021dd57cd46538c81942f37c
+  CapacitorCordova: 3d3908a3d208a11a75f9df3b18c4405c4de76e1d
+  CapacitorHaptics: 1fffc1217c7e64a472d7845be50fb0c2f7d4204c
+  CapacitorKeyboard: b978154b024a5f65e044908e37d15b7de58b9d12
+  CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
+  CordovaPlugins: 3e87e2c67f12a2a9975b426ac978078ec53d2397
+  CordovaPluginsStatic: e7b70103323a2cd09e094c0ef5dbc3d8d42ce1b9
+  OneSignalXCFramework: 087934ab0d4d7445fcf1c015c7c782359e26c020
+  PurchasesHybridCommon: af3b2413f9cb999bc1fdca44770bdaf39dfb89fa
+  RevenueCat: 84fbe2eb9bbf63e1abf346ccd3ff9ee45d633e3b
+  RevenuecatPurchasesCapacitor: c0de310959a58b3217acd7ec5ce981175bb050b1
+  StripeApplePay: f7c6962657ca6e43e16d0c73bc128a5ef014bb51
+  StripeCameraCore: cef5c20ec0643daafe48b3016a015266d4753055
+  StripeCore: f93a26f947bad20babbabd2b7adac2d1f44a63d2
+  StripeIdentity: a8d01eb9bd00c000c1e62025dac946ff13231254
+  StripePayments: 289a7d46de7d2221ce0b0334408ece35ab3cca31
+  StripePaymentSheet: 2b7b5de738e344ad35c56b358c508e1d1fcf5ed9
+  StripePaymentsUI: 3032f37b5523509d3cf5a0ac8de6efdadcce3048
+  StripeUICore: 700b63cb313429df67e461b82c6151b1dd5e4721
+
+PODFILE CHECKSUM: 3fa815a9c3c90b2d8b3e6e5edb5dbdb7d92c4327
+
+COCOAPODS: 1.12.1
