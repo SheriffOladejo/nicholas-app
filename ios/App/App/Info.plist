@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Enhance expense tracking with real-time currency conversion.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Granting access to your photo library simplifies the process of attaching visual records to your invoices</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
@@ -11,7 +13,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>Cost Crafter</string>
+	<string>Dollar Patrol</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

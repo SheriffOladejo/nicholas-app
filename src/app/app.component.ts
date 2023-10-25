@@ -29,7 +29,7 @@ push_id:any;
     platform.ready().then(async () => {
       //await Purchases.setLogLevel(LOG_LEVEL.DEBUG);
       await Purchases.configure({
-          apiKey: "appl_aVUFXNHJvxOeHhEBkTrEarRSMMW",
+          apiKey: "appl_WcdeQlkrCcMYCtrsTGTMyVciPJJ",
       });
   });
 

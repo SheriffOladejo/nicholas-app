@@ -15,6 +15,8 @@ PODS:
     - Capacitor
   - CapacitorKeyboard (5.0.6):
     - Capacitor
+  - CapacitorSplashScreen (5.0.6):
+    - Capacitor
   - CapacitorStatusBar (5.0.6):
     - Capacitor
   - CordovaPlugins (5.2.2):
@@ -72,6 +74,7 @@ DEPENDENCIES:
   - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
   - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
   - CordovaPluginsStatic (from `../capacitor-cordova-ios-plugins`)
@@ -106,6 +109,8 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/haptics"
   CapacitorKeyboard:
     :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
   CordovaPlugins:
@@ -123,6 +128,7 @@ SPEC CHECKSUMS:
   CapacitorCordova: 3d3908a3d208a11a75f9df3b18c4405c4de76e1d
   CapacitorHaptics: 1fffc1217c7e64a472d7845be50fb0c2f7d4204c
   CapacitorKeyboard: b978154b024a5f65e044908e37d15b7de58b9d12
+  CapacitorSplashScreen: 5fa2ab5e46cf5cc530cf16a51c80c7a986579ccd
   CapacitorStatusBar: 565c0a1ebd79bb40d797606a8992b4a105885309
   CordovaPlugins: 3e87e2c67f12a2a9975b426ac978078ec53d2397
   CordovaPluginsStatic: e7b70103323a2cd09e094c0ef5dbc3d8d42ce1b9
@@ -139,6 +145,6 @@ SPEC CHECKSUMS:
   StripePaymentsUI: 3032f37b5523509d3cf5a0ac8de6efdadcce3048
   StripeUICore: 700b63cb313429df67e461b82c6151b1dd5e4721
 
-PODFILE CHECKSUM: 3fa815a9c3c90b2d8b3e6e5edb5dbdb7d92c4327
+PODFILE CHECKSUM: bd91998c8c74af1049cca8da8055be1b25875f0b
 
 COCOAPODS: 1.12.1

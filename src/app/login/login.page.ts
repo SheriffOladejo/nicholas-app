@@ -18,8 +18,8 @@ export class LoginPage implements OnInit {
   hasClick:any = false;
   setting:any;
   text:any;
-  email:any = "sushilasaharan9988@gmail.com";
-  password:any = "google123";
+  email:any = "";
+  password:any = "";
 
   constructor(public server : ServerService,public otherService : OtherService) {
 

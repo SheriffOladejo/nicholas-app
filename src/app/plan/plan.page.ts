@@ -55,15 +55,15 @@ export class PlanPage implements OnInit {
       this.text = this.text.text;
     }
 
-    this.displayUpsellScreen();
-
+    if (Capacitor.getPlatform() === 'ios') {
+      this.displayUpsellScreen();
+    }
   }
 
   displayUpsellScreen = async () => {
     try {
       const offerings = await Purchases.getOfferings();
       if (offerings.current !== null && offerings.current.availablePackages.length !== 0) {  
-        this.otherService.toast("Availale packages: "+offerings.current.availablePackages.length)
         if (offerings.current && offerings.current.monthly) {
           _package = offerings.current.monthly;  
           // Get the price and introductory period from the PurchasesProduct
@@ -133,13 +133,14 @@ export class PlanPage implements OnInit {
           try {
             const body = {user : localStorage.getItem('user_id')}
             if (body['user'] !== null) {
-              this.otherService.toast(body['user']);
               const logInResult = await Purchases.logIn({ appUserID: body['user']});
               const purchaseResult = await Purchases.purchasePackage({ aPackage: _package });
-              if (typeof purchaseResult.customerInfo.entitlements.active[MONTHLY_SUBSCRIPTION_ID] !== "undefined") {
+              if (typeof purchaseResult.customerInfo.entitlements.active["default"] !== "undefined") {
+                //this.assignPlan(this.splitAndJoin(paymentIntent),plan);
                 this.otherService.toast("Subscription purchased");
-                this.assignPlan(this.splitAndJoin(paymentIntent),plan);
+                this.otherService.redirect("home");
               }
+              this.otherService.hideLoading();
             }
             else {
               this.otherService.toast("An error occurred");
